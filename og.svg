@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="wash"  cx="50%"  cy="0%"  r="80%"><stop offset="0%"  stop-color="#4dabf7" stop-opacity="0.18"/><stop offset="100%" stop-color="#4dabf7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="wash2" cx="92%"  cy="40%" r="60%"><stop offset="0%"  stop-color="#f0b232" stop-opacity="0.14"/><stop offset="100%" stop-color="#f0b232" stop-opacity="0"/></radialGradient>
+    <radialGradient id="wash3" cx="6%"   cy="70%" r="60%"><stop offset="0%"  stop-color="#b794f6" stop-opacity="0.12"/><stop offset="100%" stop-color="#b794f6" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#1c2433"/>
+  <rect width="1200" height="630" fill="url(#wash)"/>
+  <rect width="1200" height="630" fill="url(#wash2)"/>
+  <rect width="1200" height="630" fill="url(#wash3)"/>
+
+  <!-- Faint blueprint grid -->
+  <g stroke="#2e3a52" stroke-width="1" opacity="0.5">
+    <path d="M0 100 H1200 M0 200 H1200 M0 300 H1200 M0 400 H1200 M0 500 H1200"/>
+    <path d="M100 0 V630 M200 0 V630 M300 0 V630 M400 0 V630 M500 0 V630 M600 0 V630 M700 0 V630 M800 0 V630 M900 0 V630 M1000 0 V630 M1100 0 V630"/>
+  </g>
+
+  <!-- Eyebrow -->
+  <text x="64" y="100" font-family="ui-monospace, monospace" font-size="20" letter-spacing="6" fill="#aab3c7">ZOOSTATS · MACOS · MENUBAR</text>
+
+  <!-- Wordmark -->
+  <text x="64" y="290" font-family="serif" font-weight="900" font-size="180" letter-spacing="-6" fill="#f3f5fb">zoostats</text>
+
+  <!-- Tagline -->
+  <text x="64" y="380" font-family="serif" font-size="44" fill="#f3f5fb">A tiny zoo of</text>
+  <text x="64" y="430" font-family="serif" font-style="italic" font-weight="600" font-size="44" fill="#4dabf7">live system stats.</text>
+
+  <!-- Per-stat color band -->
+  <rect x="64"  y="490" width="180" height="14" fill="#4dabf7"/>
+  <rect x="252" y="490" width="120" height="14" fill="#f0b232"/>
+  <rect x="380" y="490" width="80"  height="14" fill="#c0e26b"/>
+  <rect x="468" y="490" width="60"  height="14" fill="#b794f6"/>
+  <rect x="536" y="490" width="160" height="14" fill="#4dd0e1"/>
+
+  <!-- Real app icon, transparent BG, large in the right third -->
+  <image href="/icon-512.png" x="800" y="120" width="380" height="380"/>
+
+  <!-- Domain pin -->
+  <text x="64" y="590" font-family="ui-monospace, monospace" font-size="22" letter-spacing="3" fill="#aab3c7">zoostats.app</text>
+  <circle cx="1136" cy="582" r="8" fill="#4dabf7"/>
+</svg>
